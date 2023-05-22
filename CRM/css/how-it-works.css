@@ -1,11 +1,348 @@
-body{
-    color: rgb(28, 102, 77);
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
 }
 
-body{
-    font-size: 6000px;
+#butt {
+
+    color: blue
+}
+#screen{
+    height: 37px;
+    width:100px;
+    border-radius: 20px;
+    
+
+}
+div a span {
+    color: rgba(0, 4, 255, 0.472);
 }
 
-p{
-    font-size: 119px;
+#h5 {
+    font-size: smaller;
+    font-weight: light;
+    color: gray;
+    position: relative;
+    bottom: 10px;
+}
+
+#h6 {
+    font-size: smaller;
+    font-weight: light;
+    color: gray;
+    margin-top: 10px;
+}
+
+#col2 {
+    text-align: center;
+}
+
+#con1 {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#butt1 {
+    font-weight: bolder;
+}
+
+#butt1 span {
+    color: gray;
+    font-weight: lighter;
+}
+
+#sign {
+    color: grey;
+    font-weight: bold;
+}
+
+div #two-but ul li {
+    display: inline;
+    color: rgb(1, 1, 9);
+    position: relative;
+    right: 45px;
+    bottom: 45px;
+    margin: 10px;
+}
+
+.dash {
+    position: relative;
+    left: 20px;
+    bottom: 6px;
+}
+
+div ul li:hover {
+    background-color: rgba(28, 28, 179, 0.222);
+}
+
+.dash2 {
+    position: relative;
+    top: 30px;
+}
+
+.dash3 {
+    position: relative;
+    right: 10px;
+}
+
+.dash4 {
+    position: relative;
+    top: 5px;
+}
+
+.dash5 {
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+}
+
+.dash6 {
+    position: relative;
+    right: 13px;
+}
+
+.dash7 {
+    position: relative;
+    right: 13px;
+}
+
+.dash8 {
+    position: relative;
+    right: 37px;
+    bottom: 9px;
+}
+
+#dot {
+    font-size: 55px;
+    color: blue;
+    position: relative;
+    top: 12px;
+    right: 5px;
+}
+
+#box1 {
+    position: relative;
+    height: 130px;
+    width: 30px;
+    background-color: #0d6efd;
+    border-radius: 25px;
+    box-shadow: 10px 10px 35px 3px;
+}
+
+div #box1.col:hover {
+    background-color: rgb(94, 90, 90);
+    color: rgb(211, 218, 23);
+    cursor: pointer;
+}
+
+div #box2:hover {
+    background-color: rgb(94, 90, 90);
+    color: rgb(211, 218, 23);
+    cursor: pointer;
+}
+
+div #box3.col:hover {
+    background-color: rgb(94, 90, 90);
+    color: rgb(211, 218, 23);
+    cursor: pointer;
+}
+
+div #box4.col:hover {
+    background-color: rgb(94, 90, 90);
+    color: rgb(211, 218, 23);
+    cursor: pointer;
+}
+
+div #box5.col:hover {
+    background-color: rgb(94, 90, 90);
+    color: rgb(211, 218, 23);
+    cursor: pointer;
+}
+
+#box2 {
+    height: 130px;
+    width: 30px;
+    background-color: #0d6efd;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 10px 10px 35px 3px;
+
+
+}
+
+#box3 {
+    height: 130px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 200px 200px 200px 12px;
+    box-shadow: 10px 10px 35px 3px;
+}
+
+#box4 {
+    height: 130px;
+    width: 30px;
+    background-color: #0d6efd;
+    border-radius: 128px 0px 177px 0px;
+    box-shadow: 10px 10px 35px 3px;
+}
+
+#box5 {
+    height: 130px;
+    width: 30px;
+    background-color: white;
+    border-radius: 0px 200px 0px 0px;
+    border: 1px solid rgba(238, 232, 232, 0.573);
+    box-shadow: 10px 10px 35px 3px;
+}
+
+#gg {
+    background-color: blue;
+}
+
+.text1 {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+.text2 {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 45px;
+}
+
+.text2-1 {
+    font-size: 20px;
+    position: relative;
+    left: px;
+    top: 45px;
+}
+
+.text2-2 {
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    top: 45px;
+}
+
+.text3 {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 45px;
+}
+
+.back-g {
+    background-color: aliceblue;
+}
+
+div .hor {
+    position: relative;
+    right: 400px;
+    top: 100px
+}
+
+div .col:hover {
+    background-color: blue;
+}
+
+#h2 {
+    text-align: center;
+    height: 120px;
+}
+
+#container2 {
+    height: 370px;
+
+}
+
+#scd-page {
+    background-color: #1166e6;
+    width: 700px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+
+#any {
+    position: relative;
+    top: 150px;
+}
+
+#paragraph {
+    color: aliceblue;
+    text-indent: 120px;
+    height: 110px;
+
+}
+
+#paragraph1 {
+    color: aliceblue;
+
+}
+
+#container3 {
+    height: 410px;
+    margin-top: 150px;
+}
+
+#container4 {
+    background-color: #1166e6;
+    border-radius: 0px 45px 45px 0px;
+    box-shadow: 9px -13px 40px -13px
+}
+
+#box6 {
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+#footer {
+    position: relative;
+    top: 40px;
+}
+
+.name {
+    font-weight: bold;
+    color: #020C31;
+}
+
+.name1 {
+    font-weight: bold;
+    color: #151a2fd0;
+}
+
+#butt3 {
+    width: 175px;
+    text-transform: capitalize;
+    background-color: rgb(15, 225, 4);
+    font-weight: 700;
+}
+
+#butt4 {
+    width: 155px;
+    text-transform: capitalize;
+    color: #0d6dfd;
+    font-weight: 600;
+    box-shadow: 20px -15px 19px -32
+}
+
+#butt4:hover {
+    box-shadow: 10px 10px 35px 3px;
+    background-color: rgb(94, 90, 90);
+    color: rgb(211, 218, 23);
+}
+
+#butt3:hover {
+    box-shadow: 10px 10px 35px 3px;
+    background-color: rgb(94, 90, 90);
+    color: rgb(211, 218, 23);
+}
+
+#footer-list ul li {
+    display: inline-block;
+    color: white;
 }
